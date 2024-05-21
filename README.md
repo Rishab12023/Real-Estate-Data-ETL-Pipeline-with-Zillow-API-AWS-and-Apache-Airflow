@@ -13,9 +13,9 @@ Cloud Platform: AWS
   Visualization: Amazon QuickSight
   Workflow Orchestration: Apache Airflow
 ## Prerequisites
-  . AWS Account
-  . Apache Airflow installation
-  . Access to Zillow Rapid API
+  1. AWS Account
+  2. Apache Airflow installation
+  3. Access to Zillow Rapid API
 ## Setup and Installation
   1. Install Apache Airflow
 
