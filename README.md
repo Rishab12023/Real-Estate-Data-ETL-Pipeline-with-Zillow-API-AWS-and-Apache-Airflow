@@ -1,10 +1,10 @@
-#Real Estate Data ETL Pipeline with Zillow API, AWS, and Apache Airflow
-##Overview
+# Real Estate Data ETL Pipeline with Zillow API, AWS, and Apache Airflow
+## Overview
 This project demonstrates how to build and automate a Python-based ETL (Extract, Transform, Load) pipeline using Zillow Rapid API data. The pipeline extracts real estate properties data, processes it through AWS Lambda functions, and loads it into AWS Redshift for analysis. Visualization of the data is done using Amazon QuickSight.
 
 The orchestration of the workflow is managed by Apache Airflow, leveraging its S3KeySensor to ensure data dependencies are resolved before proceeding with downstream tasks.
 
-##Architecture
+## Architecture
 Data Source: Zillow Rapid API
 Cloud Platform: AWS
   Storage: Amazon S3 Buckets
@@ -12,11 +12,11 @@ Cloud Platform: AWS
   Database: Amazon Redshift
   Visualization: Amazon QuickSight
   Workflow Orchestration: Apache Airflow
-##Prerequisites
+## Prerequisites
   AWS Account
   Apache Airflow installation
   Access to Zillow Rapid API
-##Setup and Installation
+## Setup and Installation
   1. Install Apache Airflow
 
   2. Configure AWS Services:
